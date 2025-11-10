@@ -1,13 +1,9 @@
-import { ModeToggle } from "@/components/theme-toggle";
-import { Button } from "@/components/ui/button";
+import LoginDialog from "@/components/LoginDialog";
 
-export default function Home() {
+export default function HomePage() {
   return (
-   <>
-  <div className="min-h-screen flex justify-center items-center w-full">
-   <Button>UwU</Button>
-   <ModeToggle/>
-  </div>
-   </>
+    <div className="min-h-screen flex flex-col justify-center items-center">
+      <LoginDialog />
+    </div>
   );
 }

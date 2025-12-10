@@ -48,7 +48,6 @@ export function AppSidebar() {
           <SidebarGroupLabel>
             <span className="font-bold text-lg">ようこそ, プレイヤ</span>
           </SidebarGroupLabel>
-
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (

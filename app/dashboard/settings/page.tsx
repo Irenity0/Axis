@@ -1,9 +1,10 @@
+import { ModeToggle } from '@/components/theme-toggle';
 import React from 'react';
 
 const SettingsPage = () => {
     return (
         <div>
-            Settings
+            <ModeToggle isTextTrue={true}/>
         </div>
     );
 };

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -187,4 +188,8 @@
     @apply bg-background text-foreground;
     letter-spacing: var(--tracking-normal);
   }
+}
+
+.michroma {
+  font-family: "Michroma", sans-serif;
 }
